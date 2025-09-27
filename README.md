@@ -127,6 +127,14 @@ This gave richer feature representation.
 | Support Vector Machine  | 0.4210 | 10.208 |
 
 ✅ **Best Model:** XGBoost Regressor  
+# Deep Learning Model Evaluation
+
+## Model Description
+
+| Model                   | R-squared | RMSE   | Description                                                                                   |
+|-------------------------|-----------|--------|-----------------------------------------------------------------------------------------------|
+| Feedforward Neural Network (MLP) | 0.9191    | 3.8166 | Two hidden layers with ReLU, Dropout, and L2 regularization; predicts response time from physiological and eye-tracking features. |
+| BiLSTM                  | 0.9419    | 3.2341 | Captures over 94% of data variance with low RMSE; highly accurate and reliable for predicting response time.                        |
 
 ---
 
